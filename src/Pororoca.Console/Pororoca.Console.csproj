@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+      <EnablePreviewFeatures>True</EnablePreviewFeatures>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Consolonia" Version="11.2.*-beta.*" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\Pororoca.Desktop\Pororoca.Desktop.csproj" />
+      <ProjectReference Include="..\Pororoca.Domain\Pororoca.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
